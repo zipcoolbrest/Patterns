@@ -1,0 +1,19 @@
+Usage example:
+Abstract factory creates cross-platform interface elements and ensures
+that they correspond to the selected operating system.
+A cross-platform program can show the same interface elements that
+look a little different on different operating systems.
+In such a program, it is important that all the elements created always
+correspond to the current operating system. You wouldn't want a program
+running on Windows to suddenly start showing macOS-style checkboxes
+
+Example:
+1. create device interfaces like tv and phone
+2. create device factory where we can create devises
+3. realise it:
+    3.1 create several companies (for example LG and Samsung);
+    3.2 create in companies devices and implement it from interfaces (point 1);
+    3.3 create in companies device factory and implement it from interfaces (point 2);
+done.
+see Main -> public static void abstractFactoryExample()
+
