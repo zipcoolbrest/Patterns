@@ -121,3 +121,7 @@ public class Main {
         observerExample();
     }
 }
+
+
+
+тест
